@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # -*- mode: python -*-
 """
-Høster pidder med publizon provider id
+Høster pidder med forlagsbeskrivelser
 """
 import logging
 import requests
@@ -18,7 +18,7 @@ def fetch_pids(solr_url, limit=None, rows=10):
     if not end:
         end = rows + 1
 
-    params = {'q': 'rec.collectionIdentifier:150015-e*',
+    params = {'q': 'rec.collectionIdentifier:150015-f*',
               'start': 0,
               'rows': rows,
               'fl': 'rec.repositoryId'}
@@ -40,7 +40,7 @@ def fetch_pids(solr_url, limit=None, rows=10):
             fetched += 1
 
 
-def get_pids(solr_url, limit=None, outfile='ebogs_pids.txt'):
+def get_pids(solr_url, limit=None, outfile='forlagsbreskrivelse_pids.txt', ):
     with open(outfile, 'w') as fh:
         for pid in tqdm(fetch_pids(solr_url, limit=limit)):
             fh.write(pid+'\n')
@@ -52,12 +52,12 @@ def cli():
 
     solr_url = 'http://cisterne-solr.dbc.dk:8984/solr/corepo_20180330_1818_stored/'
 
-    parser = argparse.ArgumentParser(description='høst af pid\'er med ebogsr')
+    parser = argparse.ArgumentParser(description='høst af pid\'er med forlagsbeskrivelser')
     parser.add_argument('-l', '--limit', dest='limit', type=int,
                         help='limits number of harvested reviews)', default=None)
     parser.add_argument('-o', '--outfile', dest='outfile',
-                        help='file to dump pids into. default is \'ebogs_pids.txt\'',
-                        default='forlagsbreskrivelse_pids.txt')
+                        help='file to dump pids into. default is \'forlagsbeskrivelse_pids.txt\'',
+                        default='forlagsbeskrivelse_pids.txt')
     parser.add_argument('-v', '--verbose', dest='verbose', action='store_true',
                         help='verbose output')
     args = parser.parse_args()

@@ -1,0 +1,238 @@
+<ting:container
+    xmlns:ac="http://biblstandard.dk/ac/namespace/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/"
+    xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/"
+    xmlns:docbook="http://docbook.org/ns/docbook"
+    xmlns:oss="http://oss.dbc.dk/ns/osstypes"
+    xmlns:ting="http://www.dbc.dk/ting"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <dkabm:record>
+    <ac:identifier>27825680|870970</ac:identifier>
+    <ac:source>eReolen</ac:source>
+    <dc:title>Drengene fra Wembley</dc:title>
+    <dc:title xsi:type="dkdcplus:full">Drengene fra Wembley : et legendarisk landshold taler ud</dc:title>
+    <dc:creator xsi:type="dkdcplus:aut">Hans Krabbe</dc:creator>
+    <dc:creator xsi:type="oss:sort">Krabbe, Hans</dc:creator>
+    <dc:creator xsi:type="dkdcplus:aut">Dan Hirsch Sørensen</dc:creator>
+    <dc:creator xsi:type="oss:sort">Hirsch Sørensen, Dan</dc:creator>
+    <dc:subject xsi:type="dkdcplus:DK5">79.71</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DK5-Text">Fodbold</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCO">biografier</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCF">det danske fodboldlandshold</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCF">fodbold</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCF">fodboldlandskampe</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCF">fodboldspillere</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCF">historie</dc:subject>
+    <dcterms:abstract>Det danske fodboldlandshold, der den 21. september 1983 besejrede England på Wembley ser tilbage på skæbnekampen og fortæller hvad tilværelsen siden bragte</dcterms:abstract>
+    <dc:description>Downloades i PDF-format</dc:description>
+    <dcterms:audience>voksenmaterialer</dcterms:audience>
+    <dc:publisher>Lindhardt og Ringhof</dc:publisher>
+    <dc:contributor xsi:type="dkdcplus:ill">Per Kjærbye</dc:contributor>
+    <dc:date>2009</dc:date>
+    <dc:type xsi:type="dkdcplus:BibDK-Type">Ebog</dc:type>
+    <dc:identifier xsi:type="dkdcplus:ISBN">9788711437223</dc:identifier>
+    <dc:identifier xsi:type="dcterms:URI">https://ereolen.dk/ting/object/870970-basis:27825680</dc:identifier>
+    <dc:identifier xsi:type="oss:PROVIDER-ID">9788711437223</dc:identifier>
+    <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+    <dc:language>Dansk</dc:language>
+    <dcterms:spatial xsi:type="dkdcplus:DBCF">Danmark</dcterms:spatial>
+    <dcterms:temporal xsi:type="dkdcplus:DBCP">1980-1989</dcterms:temporal>
+    <dcterms:temporal xsi:type="dkdcplus:DBCP">1990-1999</dcterms:temporal>
+    <dcterms:temporal xsi:type="dkdcplus:DBCP">2000-2009</dcterms:temporal>
+  </dkabm:record>
+  <marcx:collection
+      xmlns:marcx="info:lc/xmlns/marcxchange-v1">
+    <marcx:record format="danMARC2" type="Bibliographic">
+      <marcx:leader>00000n    2200000   4500</marcx:leader>
+      <marcx:datafield ind1="0" ind2="0" tag="001">
+        <marcx:subfield code="a">27825680</marcx:subfield>
+        <marcx:subfield code="b">870970</marcx:subfield>
+        <marcx:subfield code="c">20180104083011</marcx:subfield>
+        <marcx:subfield code="d">20090713</marcx:subfield>
+        <marcx:subfield code="f">a</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="002">
+        <marcx:subfield code="b">150015</marcx:subfield>
+        <marcx:subfield code="d">9788711437223</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="004">
+        <marcx:subfield code="a">e</marcx:subfield>
+        <marcx:subfield code="r">n</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="008">
+        <marcx:subfield code="t">m</marcx:subfield>
+        <marcx:subfield code="u">r</marcx:subfield>
+        <marcx:subfield code="a">2009</marcx:subfield>
+        <marcx:subfield code="b">dk</marcx:subfield>
+        <marcx:subfield code="d">y</marcx:subfield>
+        <marcx:subfield code="k">c</marcx:subfield>
+        <marcx:subfield code="l">dan</marcx:subfield>
+        <marcx:subfield code="n">b</marcx:subfield>
+        <marcx:subfield code="w">1</marcx:subfield>
+        <marcx:subfield code="v">0</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="009">
+        <marcx:subfield code="a">a</marcx:subfield>
+        <marcx:subfield code="g">xe</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="021">
+        <marcx:subfield code="e">9788711437223</marcx:subfield>
+        <marcx:subfield code="d">kr. 156,00</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="032">
+        <marcx:subfield code="a">IDO200930</marcx:subfield>
+        <marcx:subfield code="x">ACC200929</marcx:subfield>
+        <marcx:subfield code="x">NET200930</marcx:subfield>
+        <marcx:subfield code="x">ERE201503</marcx:subfield>
+        <marcx:subfield code="x">ERA201803</marcx:subfield>
+        <marcx:subfield code="x">DAT201525</marcx:subfield>
+        <marcx:subfield code="x">DAT991505</marcx:subfield>
+        <marcx:subfield code="x">DAT991605</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="245">
+        <marcx:subfield code="a">Drengene fra Wembley</marcx:subfield>
+        <marcx:subfield code="c">et legendarisk landshold taler ud</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="260">
+        <marcx:subfield code="b">Lindhardt og Ringhof</marcx:subfield>
+        <marcx:subfield code="c">[2009]</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="504">
+        <marcx:subfield code="a">Det danske fodboldlandshold, der den 21. september 1983 besejrede England på Wembley ser tilbage på skæbnekampen og fortæller hvad tilværelsen siden bragte</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="512">
+        <marcx:subfield code="a">Downloades i PDF-format</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="520">
+        <marcx:subfield code="a">Onlineversion af bogen (1. udgave, 2. oplag. 2008)</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="652">
+        <marcx:subfield code="m">79.71</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="666">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="f">fodbold</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="666">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="f">fodboldlandskampe</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="666">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="f">det ¤danske fodboldlandshold</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="666">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="f">fodboldspillere</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="666">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="f">historie</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="666">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="i">1980-1989</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="666">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="i">1990-1999</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="666">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="i">2000-2009</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="666">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="e">Danmark</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="666">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="o">biografier</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="700">
+        <marcx:subfield code="a">Krabbe</marcx:subfield>
+        <marcx:subfield code="h">Hans</marcx:subfield>
+        <marcx:subfield code="4">aut</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="700">
+        <marcx:subfield code="å">1</marcx:subfield>
+        <marcx:subfield code="a">Hirsch Sørensen</marcx:subfield>
+        <marcx:subfield code="h">Dan</marcx:subfield>
+        <marcx:subfield code="4">aut</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="720">
+        <marcx:subfield code="o">Per Kjærbye</marcx:subfield>
+        <marcx:subfield code="4">ill</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="856">
+        <marcx:subfield code="z">Adgang til lån hos eReolen.dk</marcx:subfield>
+        <marcx:subfield code="u">https://ereolen.dk/ting/object/870970-basis:27825680</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="900">
+        <marcx:subfield code="a">Sørensen</marcx:subfield>
+        <marcx:subfield code="h">Dan H.</marcx:subfield>
+        <marcx:subfield code="z">700/1</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="900">
+        <marcx:subfield code="a">Sørensen</marcx:subfield>
+        <marcx:subfield code="h">Dan Hirsch</marcx:subfield>
+        <marcx:subfield code="z">700/1</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="990">
+        <marcx:subfield code="o">200930</marcx:subfield>
+        <marcx:subfield code="u">op</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="996">
+        <marcx:subfield code="a">DBC</marcx:subfield>
+      </marcx:datafield>
+    </marcx:record>
+  </marcx:collection>
+  <ln:links
+      xmlns:ln="http://oss.dbc.dk/ns/links">
+    <ln:link>
+      <ln:access>login</ln:access>
+      <ln:accessType>time limited streaming</ln:accessType>
+      <ln:linkTo>website</ln:linkTo>
+      <ln:relationType>dbcaddi:hasOnlineAccess</ln:relationType>
+      <ln:url>https://ereolen.dk/ting/object/870970-basis:27825680</ln:url>
+      <ln:collectionIdentifier>870970-basis</ln:collectionIdentifier>
+      <ln:collectionIdentifier>870970-bibdk</ln:collectionIdentifier>
+      <ln:collectionIdentifier>150015-ereol</ln:collectionIdentifier>
+    </ln:link>
+    <ln:link>
+      <ln:access>login</ln:access>
+      <ln:accessType>time limited download</ln:accessType>
+      <ln:linkTo>website</ln:linkTo>
+      <ln:relationType>dbcaddi:hasOnlineAccess</ln:relationType>
+      <ln:url>https://ereolen.dk/ting/object/870970-basis:27825680</ln:url>
+      <ln:collectionIdentifier>870970-basis</ln:collectionIdentifier>
+      <ln:collectionIdentifier>870970-bibdk</ln:collectionIdentifier>
+      <ln:collectionIdentifier>150015-ereol</ln:collectionIdentifier>
+    </ln:link>
+    <ln:link>
+      <ln:access>remote</ln:access>
+      <ln:accessType/>
+      <ln:linkTo>resolver</ln:linkTo>
+      <ln:relationType>dbcaddi:hasOpenUrl</ln:relationType>
+      <ln:url>_BASEURL_url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:book&amp;rft.btitle=Drengene+fra+Wembley&amp;rft.aulast=Krabbe&amp;rft.aufirst=Hans&amp;rft.auinit=H&amp;rft.date=2009&amp;rft.isbn=9788711437223&amp;rft.pub=Lindhardt+og+Ringhof&amp;rft.genre=book&amp;rfr_id=info:sid/dbc.dk:870970-basis</ln:url>
+      <ln:collectionIdentifier>870970-basis</ln:collectionIdentifier>
+      <ln:collectionIdentifier>870970-bibdk</ln:collectionIdentifier>
+      <ln:collectionIdentifier>150015-ereol</ln:collectionIdentifier>
+    </ln:link>
+  </ln:links>
+  <adminData>
+    <recordStatus>active</recordStatus>
+    <creationDate>2016-07-09</creationDate>
+    <libraryType>none</libraryType>
+    <genre>nonfiktion</genre>
+    <indexingAlias>danmarcxchange</indexingAlias>
+    <accessType>online</accessType>
+    <workType>literature</workType>
+    <collectionIdentifier>870970-basis</collectionIdentifier>
+    <collectionIdentifier>870970-bibdk</collectionIdentifier>
+    <collectionIdentifier>150015-ereol</collectionIdentifier>
+  </adminData>
+</ting:container>
+

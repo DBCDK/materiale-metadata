@@ -1,0 +1,129 @@
+<ting:container
+    xmlns:ac="http://biblstandard.dk/ac/namespace/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/"
+    xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/"
+    xmlns:docbook="http://docbook.org/ns/docbook"
+    xmlns:oss="http://oss.dbc.dk/ns/osstypes"
+    xmlns:ting="http://www.dbc.dk/ting"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <dkabm:record>
+    <ac:identifier>31487048|870976</ac:identifier>
+    <ac:source>Materialevurderinger</ac:source>
+    <dc:title>Lektørudtalelse</dc:title>
+    <dc:title xsi:type="dkdcplus:full">Lektørudtalelse</dc:title>
+    <dc:creator xsi:type="dkdcplus:rev">Lotte Klemens Thomhave</dc:creator>
+    <dc:creator xsi:type="oss:sort">Thomhave, Lotte Klemens</dc:creator>
+    <dc:subject>Lektørudtalelse</dc:subject>
+    <dc:description>Bogen er nem at læse med et relevant emne. Det er interessant at høre både Mettes og Mikkels side af historien, og det kan fx åbne op for en god diskussion i undervisningen. Ligesom den åbne slutning kan gøre det</dc:description>
+    <dcterms:audience>voksenmaterialer</dcterms:audience>
+    <dc:date>2017</dc:date>
+    <dc:type xsi:type="dkdcplus:BibDK-Type">Anmeldelse</dc:type>
+    <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+    <dc:language>Dansk</dc:language>
+  </dkabm:record>
+  <marcx:collection
+      xmlns:marcx="info:lc/xmlns/marcxchange-v1">
+    <marcx:record format="danMARC2" type="Bibliographic">
+      <marcx:leader>00000n    2200000   4500</marcx:leader>
+      <marcx:datafield ind1="0" ind2="0" tag="001">
+        <marcx:subfield code="a">31487048</marcx:subfield>
+        <marcx:subfield code="b">870976</marcx:subfield>
+        <marcx:subfield code="c">20170623074617</marcx:subfield>
+        <marcx:subfield code="d">20170607</marcx:subfield>
+        <marcx:subfield code="f">a</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="004">
+        <marcx:subfield code="r">n</marcx:subfield>
+        <marcx:subfield code="a">i</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="008">
+        <marcx:subfield code="t">a</marcx:subfield>
+        <marcx:subfield code="u">f</marcx:subfield>
+        <marcx:subfield code="a">2017</marcx:subfield>
+        <marcx:subfield code="b">dk</marcx:subfield>
+        <marcx:subfield code="d">s</marcx:subfield>
+        <marcx:subfield code="l">dan</marcx:subfield>
+        <marcx:subfield code="v">0</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="009">
+        <marcx:subfield code="a">a</marcx:subfield>
+        <marcx:subfield code="g">xx</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="014">
+        <marcx:subfield code="a">53221629</marcx:subfield>
+        <marcx:subfield code="x">ANM</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="032">
+        <marcx:subfield code="x">LEK201728</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="245">
+        <marcx:subfield code="a">[Lektørudtalelse]</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="559">
+        <marcx:subfield code="b">Letlæst bog om utroskab fra serien "Læseværkstedet". Bogen egner sig til unge og voksne med læsevanskeligheder, til brug i undervisningen og som fritidslæsning</marcx:subfield>
+        <marcx:subfield code="c">Mikkel og Mette er gift og har to børn. De har travlt på deres arbejde. Mette er lærer og underviser i mange timer. Mikkel er fotograf og elsker at tage gode billeder af sine kunder. Historien starter i dagene op til jul. Mikkel begynder pludselig at komme sent hjem fra arbejde. Mette er vred. Hun vil have, at han hjælper med at hente børnene. Mikkel lyver og siger, han har travlt. Men hvad er der galt? Og hvem køber Mikkel smykker til? Historien bliver fortalt på skift af Mette og Mikkel. På forsiden er der et billede af en pose slik, som indgår i historien. "Utro" er en del af serien "Læseværkstedet" i grønt niveau, lix 13. Alle bøger i serien er også udgivet som lydbøger</marcx:subfield>
+        <marcx:subfield code="d">Bogen er nem at læse med et relevant emne. Det er interessant at høre både Mettes og Mikkels side af historien, og det kan fx åbne op for en god diskussion i undervisningen. Ligesom den åbne slutning kan gøre det</marcx:subfield>
+        <marcx:subfield code="e">Kirsten Ahlburg har skrevet flere bøger om den svære kærlighed for læsesvage unge og voksne i samme letlæsnings-serie. Fx i </marcx:subfield>
+        <marcx:subfield code="5">870970</marcx:subfield>
+        <marcx:subfield code="6">22779877</marcx:subfield>
+        <marcx:subfield code="y">Et lille håb</marcx:subfield>
+        <marcx:subfield code="i">Utroskab er et emne, som mange kan forholde sig til. Anbefales til indkøb. Special-pædagogisk forlag udgiver en lang række bøger til læsesvage unge og voksne i serien "Læseværkstedet" på 5 niveauer</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="700">
+        <marcx:subfield code="&amp;">ANM</marcx:subfield>
+        <marcx:subfield code="a">Thomhave</marcx:subfield>
+        <marcx:subfield code="h">Lotte Klemens</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="900">
+        <marcx:subfield code="a">Klemens Thomhave</marcx:subfield>
+        <marcx:subfield code="h">Lotte</marcx:subfield>
+        <marcx:subfield code="z">700</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="996">
+        <marcx:subfield code="a">DBC</marcx:subfield>
+      </marcx:datafield>
+    </marcx:record>
+  </marcx:collection>
+  <docbook:article>
+    <docbook:title>Lektørudtalelse</docbook:title>
+    <docbook:info>
+      <docbook:author>
+        <docbook:personname>
+          <docbook:firstname>Lotte Klemens</docbook:firstname>
+          <docbook:surname>Thomhave</docbook:surname>
+        </docbook:personname>
+      </docbook:author>
+    </docbook:info>
+    <docbook:section>
+      <docbook:title>Kort om bogen</docbook:title>
+      <docbook:para>Letlæst bog om utroskab fra serien "Læseværkstedet". Bogen egner sig til unge og voksne med læsevanskeligheder, til brug i undervisningen og som fritidslæsning</docbook:para>
+    </docbook:section>
+    <docbook:section>
+      <docbook:title>Beskrivelse</docbook:title>
+      <docbook:para>Mikkel og Mette er gift og har to børn. De har travlt på deres arbejde. Mette er lærer og underviser i mange timer. Mikkel er fotograf og elsker at tage gode billeder af sine kunder. Historien starter i dagene op til jul. Mikkel begynder pludselig at komme sent hjem fra arbejde. Mette er vred. Hun vil have, at han hjælper med at hente børnene. Mikkel lyver og siger, han har travlt. Men hvad er der galt? Og hvem køber Mikkel smykker til? Historien bliver fortalt på skift af Mette og Mikkel. På forsiden er der et billede af en pose slik, som indgår i historien. "Utro" er en del af serien "Læseværkstedet" i grønt niveau, lix 13. Alle bøger i serien er også udgivet som lydbøger</docbook:para>
+    </docbook:section>
+    <docbook:section>
+      <docbook:title>Vurdering</docbook:title>
+      <docbook:para>Bogen er nem at læse med et relevant emne. Det er interessant at høre både Mettes og Mikkels side af historien, og det kan fx åbne op for en god diskussion i undervisningen. Ligesom den åbne slutning kan gøre det</docbook:para>
+    </docbook:section>
+    <docbook:section>
+      <docbook:title>Andre bøger om samme emne</docbook:title>
+      <docbook:para>Kirsten Ahlburg har skrevet flere bøger om den svære kærlighed for læsesvage unge og voksne i samme letlæsnings-serie. Fx i Et lille håb</docbook:para>
+    </docbook:section>
+    <docbook:section>
+      <docbook:title>Til bibliotekaren</docbook:title>
+      <docbook:para>Utroskab er et emne, som mange kan forholde sig til. Anbefales til indkøb. Special-pædagogisk forlag udgiver en lang række bøger til læsesvage unge og voksne i serien "Læseværkstedet" på 5 niveauer</docbook:para>
+    </docbook:section>
+  </docbook:article>
+  <adminData>
+    <recordStatus>active</recordStatus>
+    <creationDate>2017-07-06</creationDate>
+    <libraryType>none</libraryType>
+    <indexingAlias>review</indexingAlias>
+    <accessType>physical</accessType>
+    <workType>review</workType>
+    <collectionIdentifier>870976-allanmeld</collectionIdentifier>
+  </adminData>
+</ting:container>

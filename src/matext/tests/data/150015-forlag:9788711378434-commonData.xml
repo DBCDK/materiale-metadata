@@ -1,0 +1,111 @@
+<ting:container
+    xmlns:ac="http://biblstandard.dk/ac/namespace/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/"
+    xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/"
+    xmlns:docbook="http://docbook.org/ns/docbook"
+    xmlns:oss="http://oss.dbc.dk/ns/osstypes"
+    xmlns:ting="http://www.dbc.dk/ting"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <dkabm:record>
+    <ac:identifier>9788711378434|150015</ac:identifier>
+    <ac:source>Beskrivelser fra forlag</ac:source>
+    <dc:title>Forlagets beskrivelse af: Edens have af Ernest Hemingway</dc:title>
+    <dc:title xsi:type="dkdcplus:full">Forlagets beskrivelse af: Edens have af Ernest Hemingway</dc:title>
+    <dc:creator>Lindhardt og Ringhof</dc:creator>
+    <dc:creator xsi:type="oss:sort">Lindhardt og Ringhof</dc:creator>
+    <dc:subject>Edens have</dc:subject>
+    <dc:subject>Ernest Hemingway</dc:subject>
+    <dcterms:abstract>En amerikansk forfatter på bryllupsrejse i Sydfrankrig forsøger at genoptage forfatterskabet, men modarbejdes hemmeligt af sin kone, der med vilje inddrager ham i et trekantforhold til en anden kvinde...</dcterms:abstract>
+    <dc:date>2013</dc:date>
+    <dc:type xsi:type="dkdcplus:BibDK-Type">Omtale</dc:type>
+    <dc:language>Dansk</dc:language>
+    <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+  </dkabm:record>
+  <docbook:article>
+    <docbook:title>Forlagets beskrivelse af: Edens have af Ernest Hemingway</docbook:title>
+    <docbook:info>
+      <docbook:author>
+        <docbook:orgname>Lindhardt og Ringhof</docbook:orgname>
+      </docbook:author>
+    </docbook:info>
+    <docbook:section>
+      <docbook:para>En amerikansk forfatter på bryllupsrejse i Sydfrankrig forsøger at genoptage forfatterskabet, men modarbejdes hemmeligt af sin kone, der med vilje inddrager ham i et trekantforhold til en anden kvinde.&lt;br&gt;&lt;br&gt;I Edens have fra 1886 foregribes en senere kønsdebat, og bogen hører til blandt dem, der gør at den udbredte opfattelse af Hemingways mandschauvinistiske kvindesyn må revurderes. I fortællingen viser Hemingway ikke blot interesse for androgyne karakterer, han eksperimenterer også med de for tiden traditionelle rollefordelinger. &lt;br&gt;</docbook:para>
+    </docbook:section>
+  </docbook:article>
+  <ting:originalData>
+    <DbcWrapper>
+      <wroot>
+        <wfaust>50728471</wfaust>
+        <status>n</status>
+        <wformat>eReolen</wformat>
+        <root>
+          <product>
+            <created_date>2013-10-07T07:52:25.963Z</created_date>
+            <updated_date>2016-05-03T06:50:00.917Z</updated_date>
+            <title>Edens have</title>
+            <status>
+              <id>9</id>
+              <description>Active</description>
+            </status>
+            <language lang="iso 639-1">da</language>
+            <coverimage>http://images.pubhub.dk/originals/c4dfee72-fe23-4b40-8450-bec2f90fae9b.jpg</coverimage>
+            <thumbnailimage>http://images.pubhub.dk/thumbnails/c4dfee72-fe23-4b40-8450-bec2f90fae9b.jpg</thumbnailimage>
+            <teaser>
+              <link>http://samples.pubhub.dk/9788711378434.epub</link>
+            </teaser>
+            <external_ids>
+              <id_type>ISBN13</id_type>
+              <id>9788711378434</id>
+            </external_ids>
+            <internal_ids>
+              <id_type>PHID</id_type>
+              <id>c4dfee72-fe23-4b40-8450-bec2f90fae9b</id>
+            </internal_ids>
+            <contributors>
+              <type>By (author)</type>
+              <first_name>Ernest</first_name>
+              <family_name>Hemingway</family_name>
+            </contributors>
+            <contributors>
+              <type>Translated by</type>
+              <first_name>Finn Holten</first_name>
+              <family_name>Hansen</family_name>
+            </contributors>
+            <formats>
+              <format_id>58</format_id>
+              <name>EPUB with Adobe encryption</name>
+              <size_bytes>1385472</size_bytes>
+              <duration_minutes>0</duration_minutes>
+              <duration_48kbit_seconds>0</duration_48kbit_seconds>
+            </formats>
+            <price>
+              <currency>dkk</currency>
+              <amount>124</amount>
+            </price>
+            <publisher>
+              <name>Lindhardt og Ringhof</name>
+              <external_id/>
+            </publisher>
+            <first_published>2013-10-07T00:00:00</first_published>
+            <description>En amerikansk forfatter på bryllupsrejse i Sydfrankrig forsøger at genoptage forfatterskabet, men modarbejdes hemmeligt af sin kone, der med vilje inddrager ham i et trekantforhold til en anden kvinde.&lt;br&gt;&lt;br&gt;I Edens have fra 1886 foregribes en senere kønsdebat, og bogen hører til blandt dem, der gør at den udbredte opfattelse af Hemingways mandschauvinistiske kvindesyn må revurderes. I fortællingen viser Hemingway ikke blot interesse for androgyne karakterer, han eksperimenterer også med de for tiden traditionelle rollefordelinger. &lt;br&gt;</description>
+            <categories desc="Fiktion og relaterede emner" type="BIC_code">
+              <category>F</category>
+            </categories>
+            <costfree>true</costfree>
+          </product>
+        </root>
+      </wroot>
+    </DbcWrapper>
+  </ting:originalData>
+  <adminData>
+    <recordStatus>active</recordStatus>
+    <creationDate>2013-10-07</creationDate>
+    <libraryType>none</libraryType>
+    <indexingAlias>dkabm</indexingAlias>
+    <accessType>none</accessType>
+    <workType>bookdescription</workType>
+    <collectionIdentifier>150015-forlag</collectionIdentifier>
+  </adminData>
+</ting:container>
