@@ -50,8 +50,6 @@ def fetch_reviewed_material(solr_url, limit=None, rows=10):
                 yield doc['term.reviewedIdentifier'][0], doc['rec.bibliographicRecordId']
                 fetched += 1
             else:
-                # if 'rec.bibliographicRecordId' not in doc:
-                #     logger.warning(doc['fedoraPid'])
                 logger.warning("document %s missing fields (fields present=%s)" % (doc['fedoraPid'],
                                                                                    str(list(doc.keys()))))
 
@@ -86,7 +84,6 @@ def scrape_reviews(solr_url, out_dir='reviews', limit=None, rows=100):
     if not os.path.isdir(out_dir):
         os.mkdir(out_dir)
 
-    # data = [(p, r) for p, r in fetch_reviewed_material(solr_url, rows=rows, limit=limit)]
     for i, (p, r) in tqdm(enumerate(fetch_reviewed_material(solr_url, rows=rows, limit=limit))):
         path = os.path.join(out_dir, "%s_%s.txt" % (p, r))
         try:
@@ -102,12 +99,11 @@ def scrape_reviews(solr_url, out_dir='reviews', limit=None, rows=100):
     logger.info("Fetched all data in [%s]", datetime.datetime.now() - start)
 
 
-
 def cli():
     """ Commandline interface """
     import argparse
 
-    # port = 7372
+    solr_url = 'http://cisterne-solr.dbc.dk:8984/solr/corepo_20180330_1818_stored/'
 
     parser = argparse.ArgumentParser(description='scraping af litteratursiden')
     parser.add_argument('-l', '--limit', dest='limit', type=int,
@@ -119,19 +115,9 @@ def cli():
     args = parser.parse_args()
 
     logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.DEBUG)
-    solr_url = 'http://cisterne-solr.dbc.dk:8984/solr/corepo_20180330_1818_stored/'
     scrape_reviews(solr_url, limit=args.limit, out_dir=args.outdir)
 
     
 
 if __name__ == '__main__':
     cli()
-
-    
-    # solr_url = 'http://cisterne-solr.dbc.dk:8984/solr/corepo_20180330_1818_stored/'
-    # scrape_reviews(solr_url, limit=3)
-    # review_id = '75413'
-    # fetch_review(review_id)
-
-
-    # dump_reviewed_material(solr_url)
