@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # -*- mode: python -*-
 """
-Script used to download reviews from literattursiden
+Script used to download reviews from litteratursiden
 """
 import datetime
 import joblib
@@ -109,7 +109,7 @@ def cli():
 
     # port = 7372
 
-    parser = argparse.ArgumentParser(description='scraping af literattursiden')
+    parser = argparse.ArgumentParser(description='scraping af litteratursiden')
     parser.add_argument('-l', '--limit', dest='limit', type=int,
                         help='limits number of harvested reviews)', default=None)
     parser.add_argument('-o', '--outdir', dest='outdir',
