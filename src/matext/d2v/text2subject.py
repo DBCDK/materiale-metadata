@@ -76,9 +76,19 @@ def eval_model(model_path, pidmap_path, mapper):
     
 if __name__ == '__main__':
 
-    eval_model(pr.resource_filename('matext', 'data/litteratursiden_300.d2v'),
-               pr.resource_filename('matext', 'data/litteratursiden_pidmap.json'),
-               LitteraturSidenMapper('/home/shm/git/matext/litteratursiden_reviews'))
+    # eval_model(pr.resource_filename('matext', 'data/litteratursiden_300.d2v'),
+    #            pr.resource_filename('matext', 'data/litteratursiden_pidmap.json'),
+    #            LitteraturSidenMapper('/home/shm/git/matext/litteratursiden_reviews'))
+
+    
+    eval_model(pr.resource_filename('matext', 'data/forlagsbeskrivelser_300.d2v'),
+               pr.resource_filename('matext', 'data/forlagsbeskrivelser_pidmap.json'),
+               ForlagsBeskrivelseMapper('/home/shm/git/matext/forlagsbeskrivelser'))
+
+    
+    # eval_model(pr.resource_filename('matext', 'data/litteratursiden_300.d2v'),
+    #            pr.resource_filename('matext', 'data/litteratursiden_pidmap.json'),
+    #            LitteraturSidenMapper('/home/shm/git/matext/litteratursiden_reviews'))
 
     
     

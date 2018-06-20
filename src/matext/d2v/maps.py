@@ -4,7 +4,49 @@
 import json
 import os
 from random import shuffle
-from parse_taxonomy import get_pid2work, parse_tags
+from matext.d2v.parse_taxonomy import get_pid2work, parse_tags, Cursor
+
+
+class AbstractMapper():
+
+    def __init__(self, db_url=None):
+        self.db = db_url
+        if not db_url:
+            self.db = os.environ['LOWELL_URL']
+        self.pids = []
+        with Cursor(self.db) as cur:
+            stmt = "select pid from metadata where metadata->>'abstract' IS NOT NULL"
+            cur.execute(stmt)
+            self.pids = [row['pid'] for row in cur]
+        print('num pids', len(self.pids))
+        pid2work = get_pid2work(self.pids)
+        self.work2pid = {v: k for k, v in pid2work.items()}
+
+    def get_text(self, work):
+        pid = self.work2pid[work]
+        with Cursor(self.db) as cur:
+            stmt = "select metadata->>'abstract' from metadata where pid=%(pid)s"
+            cur.execute(stmt, {'pid': pid})
+            for row in cur:
+                return row['?column?']
+
+    def write_map(self, dev_frac=0.1, outfile='notefelt_pidmap.json'):
+        work2tags = parse_tags()
+
+        kompas_works = [w for w in work2tags if w in self.work2pid]
+        corpus = [w for w in self.work2pid if w not in work2tags]
+
+        shuffle(kompas_works)
+        ix = int(len(kompas_works) * dev_frac)
+
+        data = {'train': kompas_works[ix:],
+                'dev': kompas_works[:ix],
+                'corpus': corpus}
+        print('train', len(data['train']))
+        print('dev', len(data['dev']))
+        print('corpus', len(data['corpus']))
+        with open(outfile, 'w') as fh:
+            json.dump(data, fh)
 
 
 class ForlagsBeskrivelseMapper():
@@ -133,7 +175,8 @@ class LitteraturSidenMapper():
 
 
 # if __name__ == '__main__':
-#     # m = LitteraturSidenMapper()
-#     m = ForlagsBeskrivelseMapper()
-#     # m = LektorMapper()
+#     m = AbstractMapper()
+# #     # m = LitteraturSidenMapper()
+# #     m = ForlagsBeskrivelseMapper()
+# #     # m = LektorMapper()
 #     m.write_map()

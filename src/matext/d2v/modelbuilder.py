@@ -8,7 +8,7 @@ from gensim.models.doc2vec import Doc2Vec
 import gensim.parsing.preprocessing as pre
 import joblib
 
-from maps import LektorMapper, LitteraturSidenMapper, ForlagsBeskrivelseMapper
+from matext.d2v.maps import LektorMapper, LitteraturSidenMapper, ForlagsBeskrivelseMapper
 
 
 FILTERS = [pre.strip_tags, pre.strip_punctuation, pre.strip_multiple_whitespaces, pre.strip_numeric, pre.strip_short]
