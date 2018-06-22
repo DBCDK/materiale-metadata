@@ -137,8 +137,8 @@ def notefelt(mapper=None):
     print('LK', lk_frac)
 
     
-# if __name__ == '__main__':
+if __name__ == '__main__':
     # litsiden()
     # forlagsbeskrivelser()
     # lektor_udtalelser()
-    # notefelt()
+    notefelt()
